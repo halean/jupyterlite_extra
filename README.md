@@ -1,3 +1,10 @@
+# What is this:
+An attempt to build more packages for jupyterlite, 
+like python-docx
+Also an attempt to build a few more gradient descent notebooks
+
+
+
 # JupyterLite Demo
 
 [![lite-badge](https://jupyterlite.rtfd.io/en/latest/_static/badge.svg)](https://jupyterlite.github.io/demo)
@@ -27,3 +34,7 @@ For more info, keep an eye on the JupyterLite documentation:
 
 - How-to Guides: https://jupyterlite.readthedocs.io/en/latest/howto/index.html
 - Reference: https://jupyterlite.readthedocs.io/en/latest/reference/index.html
+
+## To build:
+Activate build environment
+jupyter lite build --contents content --output-dir dist
